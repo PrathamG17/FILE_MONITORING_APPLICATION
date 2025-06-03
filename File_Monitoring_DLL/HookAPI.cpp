@@ -1,0 +1,125 @@
+#include "pch.h"
+/*
+#include <fstream>
+#include <atlstr.h>
+#include <iostream>
+#include "detours.h"
+#include "hookapi.h"
+
+using std::ios;
+using std::endl;
+using std::ofstream;
+
+HookAPI::HookAPI():pCopyFile(NULL), pMoveFileExW(NULL){}
+
+BOOL HookAPI::userCopyFile(LPCTSTR lpExistingFileName, LPCTSTR lpNewFileName, BOOL    bFailIfExists)
+{
+    std::wofstream fout("D:\\PRATHAMESH\\WINDOWS_API_HOOKING\\File_Monitoring\\FILE_RECORD\\file_copy_record.txt", ios::app);
+
+    CString str1 = lpExistingFileName;
+    CString str2 = lpNewFileName;
+
+    std::wstring source(reinterpret_cast<const wchar_t*>(str1.GetString()));
+    std::wstring destination(reinterpret_cast<const wchar_t*>(str2.GetString()));
+
+    std::time_t now = std::time(0);
+#pragma warning(suppress : 4996)
+    std::string str(std::ctime(&now));
+    std::wstring date(str.begin(), str.end());
+
+    fout << date << "[Source=" << source << "][Destination=" << destination << "]" << "\n";
+
+    fout.close();
+
+    BOOL result = pCopyFile(lpExistingFileName, lpNewFileName, bFailIfExists);
+
+    return result;
+}
+
+void HookAPI::FileWrite(std::string str, DWORD result)
+{
+    char* errorMessage = nullptr;
+
+    if (0 != str.compare("GetProcAddress() Failed"))
+    {
+        FormatMessageA(FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_FROM_SYSTEM, NULL, result,
+            MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), (LPSTR)&errorMessage, 0, NULL);
+    }
+
+    ofstream fout("D:\\PRATHAMESH\\WINDOWS_API_HOOKING\\File_Monitoring\\FILE_RECORD\\api_hooking_log.txt", ios::app);
+
+    fout << str << ":" << errorMessage << "------------------------------------------" << endl;
+
+    fout.close();
+}
+
+void HookAPI::HookFileCopy2()
+{
+    DWORD result = 0l;
+
+    pCopyFile = (WINAPI_CopyPointer)GetProcAddress(GetModuleHandle(L"KERNELBASE.DLL"), "CopyFile2");
+    if (NULL == pCopyFile)
+    {
+        FileWrite("GetProcAddress() Failed", result);
+        return;
+    }
+
+    result = DetourTransactionBegin();
+    FileWrite("TransactionBegin", result);
+
+    result = DetourUpdateThread(GetCurrentThread());
+    FileWrite("UpdateThread", result);
+
+    result = DetourAttach(&(PVOID&)pCopyFile, userCopyFile);
+    FileWrite("Attach", result);
+
+    result = DetourTransactionCommit();
+    FileWrite("TransactionCommit", result);
+}
+
+void HookAPI::HookMoveFileExW()
+{
+    DWORD result = 0l;
+
+    pMoveFileExW = (WINAPI_MovePointer)GetProcAddress(GetModuleHandle(L"KERNELBASE.DLL"), "MoveFileExW");
+    if (NULL == pMoveFileExW)
+    {
+        FileWrite("GetProcAddress() Failed", result);
+        return;
+    }
+
+    result = DetourTransactionBegin();
+    FileWrite("TransactionBegin", result);
+
+    result = DetourUpdateThread(GetCurrentThread());
+    FileWrite("UpdateThread", result);
+
+    result = DetourAttach(&(PVOID&)pMoveFileExW, userMoveFileExW);
+    FileWrite("Attach", result);
+
+    result = DetourTransactionCommit();
+    FileWrite("TransactionCommit", result);
+}
+
+BOOL HookAPI::userMoveFileExW(LPCWSTR lpExistingFileName, LPCWSTR lpNewFileName, DWORD   dwFlags)
+{
+    BOOL result = false;
+    std::wofstream fout("D:\\PRATHAMESH\\WINDOWS_API_HOOKING\\File_Monitoring\\FILE_RECORD\\file_delete_record.txt", ios::app);
+
+    std::wstring source = lpExistingFileName;
+    std::wstring destination = lpNewFileName;
+
+    std::time_t now = std::time(0);
+#pragma warning(suppress : 4996)
+    std::string str(std::ctime(&now));
+    std::wstring date(str.begin(), str.end());
+
+    fout << date << "[Source=" << source << "][Destination=" << destination << "]" << "\n";
+    fout.close();
+
+    if (pMoveFileExW != NULL)
+        result = pMoveFileExW(lpExistingFileName, lpNewFileName, dwFlags);
+
+    return result;
+}
+*/

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PRATHAMESH\\WINDOWS_API_HOOKING\\File_Monitoring\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{699AD7DD-48C4-4ED7-B67E-4755BCB3D338}|File_Monitoring.vcxproj|D:\\PRATHAMESH\\WINDOWS_API_HOOKING\\File_Monitoring\\injector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{699AD7DD-48C4-4ED7-B67E-4755BCB3D338}|File_Monitoring.vcxproj|solutionrelative:injector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "injector.cpp",
+              "DocumentMoniker": "D:\\PRATHAMESH\\WINDOWS_API_HOOKING\\File_Monitoring\\injector.cpp",
+              "RelativeDocumentMoniker": "injector.cpp",
+              "ToolTip": "D:\\PRATHAMESH\\WINDOWS_API_HOOKING\\File_Monitoring\\injector.cpp",
+              "RelativeToolTip": "injector.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-27T14:44:59.45Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
