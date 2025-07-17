@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\PRATHAMESH\\WINDOWS_API_HOOKING\\File_Monitoring_DLL\\",
+  "WorkspaceRootPath": "D:\\PRATHAMESH\\FILE_MONITORING_APPLICATION\\File_Monitoring_DLL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5199CC35-CF00-46C3-9126-2FB427F6FF86}|File_Monitoring_DLL.vcxproj|D:\\PRATHAMESH\\WINDOWS_API_HOOKING\\File_Monitoring_DLL\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{5199CC35-CF00-46C3-9126-2FB427F6FF86}|File_Monitoring_DLL.vcxproj|D:\\PRATHAMESH\\FILE_MONITORING_APPLICATION\\File_Monitoring_DLL\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5199CC35-CF00-46C3-9126-2FB427F6FF86}|File_Monitoring_DLL.vcxproj|solutionrelative:dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5199CC35-CF00-46C3-9126-2FB427F6FF86}|File_Monitoring_DLL.vcxproj|D:\\PRATHAMESH\\WINDOWS_API_HOOKING\\File_Monitoring_DLL\\HookAPI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{5199CC35-CF00-46C3-9126-2FB427F6FF86}|File_Monitoring_DLL.vcxproj|D:\\PRATHAMESH\\FILE_MONITORING_APPLICATION\\File_Monitoring_DLL\\HookAPI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5199CC35-CF00-46C3-9126-2FB427F6FF86}|File_Monitoring_DLL.vcxproj|solutionrelative:HookAPI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5199CC35-CF00-46C3-9126-2FB427F6FF86}|File_Monitoring_DLL.vcxproj|D:\\PRATHAMESH\\WINDOWS_API_HOOKING\\File_Monitoring_DLL\\hookapi.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{5199CC35-CF00-46C3-9126-2FB427F6FF86}|File_Monitoring_DLL.vcxproj|D:\\PRATHAMESH\\FILE_MONITORING_APPLICATION\\File_Monitoring_DLL\\hookapi.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5199CC35-CF00-46C3-9126-2FB427F6FF86}|File_Monitoring_DLL.vcxproj|solutionrelative:hookapi.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -28,35 +28,37 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "hookapi.h",
-              "DocumentMoniker": "D:\\PRATHAMESH\\WINDOWS_API_HOOKING\\File_Monitoring_DLL\\hookapi.h",
+              "DocumentMoniker": "D:\\PRATHAMESH\\FILE_MONITORING_APPLICATION\\File_Monitoring_DLL\\hookapi.h",
               "RelativeDocumentMoniker": "hookapi.h",
-              "ToolTip": "D:\\PRATHAMESH\\WINDOWS_API_HOOKING\\File_Monitoring_DLL\\hookapi.h",
+              "ToolTip": "D:\\PRATHAMESH\\FILE_MONITORING_APPLICATION\\File_Monitoring_DLL\\hookapi.h",
               "RelativeToolTip": "hookapi.h",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBMAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-01T14:32:52.46Z"
+              "WhenOpened": "2025-06-01T14:32:52.46Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "HookAPI.cpp",
-              "DocumentMoniker": "D:\\PRATHAMESH\\WINDOWS_API_HOOKING\\File_Monitoring_DLL\\HookAPI.cpp",
+              "DocumentMoniker": "D:\\PRATHAMESH\\FILE_MONITORING_APPLICATION\\File_Monitoring_DLL\\HookAPI.cpp",
               "RelativeDocumentMoniker": "HookAPI.cpp",
-              "ToolTip": "D:\\PRATHAMESH\\WINDOWS_API_HOOKING\\File_Monitoring_DLL\\HookAPI.cpp",
+              "ToolTip": "D:\\PRATHAMESH\\FILE_MONITORING_APPLICATION\\File_Monitoring_DLL\\HookAPI.cpp",
               "RelativeToolTip": "HookAPI.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAD4vw4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-01T14:30:59.346Z"
+              "WhenOpened": "2025-06-01T14:30:59.346Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "dllmain.cpp",
-              "DocumentMoniker": "D:\\PRATHAMESH\\WINDOWS_API_HOOKING\\File_Monitoring_DLL\\dllmain.cpp",
+              "DocumentMoniker": "D:\\PRATHAMESH\\FILE_MONITORING_APPLICATION\\File_Monitoring_DLL\\dllmain.cpp",
               "RelativeDocumentMoniker": "dllmain.cpp",
-              "ToolTip": "D:\\PRATHAMESH\\WINDOWS_API_HOOKING\\File_Monitoring_DLL\\dllmain.cpp",
+              "ToolTip": "D:\\PRATHAMESH\\FILE_MONITORING_APPLICATION\\File_Monitoring_DLL\\dllmain.cpp",
               "RelativeToolTip": "dllmain.cpp",
-              "ViewState": "AgIAAJIAAAAAAAAAAAAAAJsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-27T14:58:53.501Z",
               "EditorCaption": ""

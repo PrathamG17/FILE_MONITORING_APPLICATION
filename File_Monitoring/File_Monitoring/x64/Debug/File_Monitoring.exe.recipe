@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\PRATHAMESH\WINDOWS_API_HOOKING\File_Monitoring\x64\Debug\File_Monitoring.exe</FullPath>
+      <FullPath>D:\PRATHAMESH\FILE_MONITORING_APPLICATION\File_Monitoring\x64\Debug\File_Monitoring.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
